@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import torch
 from torch import nn
-import torchvision.transforms as transfroms
+import torchvision.transforms as transforms
 import os, json
 
 class MyCNNModel(nn.Module):
